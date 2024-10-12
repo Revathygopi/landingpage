@@ -1,0 +1,33 @@
+
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 12px 50px; 
+}
+
+.logo {
+    width: 169px;
+    height: 49px;
+}
+
+.navbar {
+    width: 632px;
+    height: 50px;
+    padding: 12px 50px;
+    border-radius: 28px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(219, 229, 248, 1);
+}
+
+.navicon {
+    color: rgba(61, 61, 61, 1);
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style-type: none;
+    font-weight: 400;
+    font-family:gilory-bold;
+    font-size:15px;
+    line-height:26px;
+}
