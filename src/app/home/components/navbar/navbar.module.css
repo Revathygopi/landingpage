@@ -1,8 +1,8 @@
 
 .container {
-    display: flex;
+    /* display: flex;
     align-items: center; 
-    justify-content: space-between; 
+    justify-content: space-between;  */
     padding: 12px 50px; 
 }
 
@@ -22,9 +22,9 @@
 
 .navicon {
     color: rgba(61, 61, 61, 1);
-    display:flex;
+    /* display:flex;
     justify-content: space-between;
-    text-align: center;
+    text-align: center; */
     list-style-type: none;
     font-weight: 400;
     font-family:gilory-bold;

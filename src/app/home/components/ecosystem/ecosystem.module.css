@@ -1,0 +1,29 @@
+
+.heading {
+    width: 562px;
+    height: 96px;
+    font-family: Gilroy-Bold;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: left;
+    color: rgba(22, 28, 45, 1);
+
+
+}
+
+.content1 {
+    width: 562px;
+    height: 192px;
+    opacity: 0.7px;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: rgba(22, 28, 45, 1);
+
+
+}
