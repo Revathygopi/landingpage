@@ -27,24 +27,6 @@ export default function Supplychain() {
                         height={114}
                     />
                 </div>
-                <div className={styles.oval}>
-                    <Image
-                        src={oval}
-                        alt="logo"
-                        className={`img-fluid`}
-                        width={114}
-                        height={114}
-                    />
-                </div>
-                <div className={styles.oval}>
-                    <Image
-                        src={oval}
-                        alt="logo"
-                        className={`img-fluid`}
-                        width={114}
-                        height={114}
-                    />
-                </div>
                 <div className={styles.playfill}>
                     <Image
                         src={palyfill}

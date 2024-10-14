@@ -1,8 +1,9 @@
 .container {
     width: 1, 512px;
-    height: 426px;
+    height: 500px;
     padding: 0px 180px 0px 180px;
     gap: 44px;
+    margin-top:100px;
 
 }
 
@@ -27,15 +28,155 @@
 }
 
 .imagecontainer {
-    width: 641px;
+    position: relative;
+}
+
+.digitalimage {
+
+    border-radius: 8px 0px 0px 0px;
+}
+
+.oval {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.playfill {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contentwithbutton {
+    width: 463px;
     height: 334px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 463px;
+    height: 246px;
+    gap: 24px;
+}
+
+.content1 {
+    width: 463px;
+    height: 96px;
     gap: 0px;
+    opacity: 0.7px;
+    font-family: Gilroy-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: rgba(22, 28, 45, 1);
+
+}
+
+.content {
+    width: 463px;
+    height: 126px;
+}
+
+.line1content {
+    width: 282px;
+    height: 32px;
+    gap: 8px;
+}
+
+.line1content p {
+    width: 250px;
+    height: 32px;
+    font-family: Gilroy-Bold;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: rgba(22, 28, 45, 1);
+
+}
+
+.line2content {
+    width: 350px;
+    height: 32px;
+    gap: 16px;
     opacity: 0px;
 
 }
-.digitalimage{
 
-border-radius: 8px 0px 0px 0px;
+.transparency p {
+    width: 118px;
+    height: 32px;
+    font-family: Gilroy-Bold;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: rgba(22, 28, 45, 1);
+    padding-left: 8px;
 
+
+}
+
+.reports p {
+    width: 137px;
+    height: 32px;
+    font-family: Gilroy-Bold;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: rgba(22, 28, 45, 1);
+    padding-left: 5px;
+}
+
+.line3content {
+    width: 213px;
+    height: 32px;
+    gap: 8px;
+}
+
+.line3content p {
+    width: 181px;
+    height: 32px;
+    font-family: Gilroy-Bold;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: rgba(22, 28, 45, 1);
+}
+
+.downloadbutton {
+    width: 329px;
+    height: 53px;
+    padding: 16px 40px 16px 40px;
+    gap: 16px;
+    border-radius: 8px;
+    background: linear-gradient(94.23deg, #0098BF 0%, #15BB98 68.74%, #68D585 137.48%);
+}
+
+.downloadbutton p {
+    width: 209px;
+    height: 21px;
+    font-family: Gilroy-Bold;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21.05px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding-top:-30px;
 
 }
