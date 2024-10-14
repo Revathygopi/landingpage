@@ -1,12 +1,12 @@
-.conatiner {
-    width: 1,512px;
-    height: 1,073px;
+.container {
+    width: 1550px;
+    height: 1073px;
     padding: 54px 0px 54px 0px;
     gap: 16px;
     opacity: 0px;
-    background: rgba(244, 247, 250, 1);
-   
-    
+    background-color: rgba(244, 247, 250, 1);
+
+
 }
 
 .heading {
@@ -69,6 +69,13 @@
 
 }
 
+.imagecontainer {
+    width: 934px;
+    height: 744px;
+    gap: 44px;
+
+
+}
 
 .imagecontainer1 {
     width: 282px;

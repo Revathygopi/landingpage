@@ -103,18 +103,18 @@ export default function Digital() {
                         </div>
                     </div>
                     <div className={`d-flex  ${styles.downloadbutton}`}>
-                    <div className={styles.downloadicon}>
-                        <Image
-                            src={downloadicon}
-                            alt="download-icon"
-                            className={`img-fluid`}
-                            width={30}
-                            height={20}
-                        />
-                    </div>
-                    <p>
-                    Download Product Brochure
-                    </p>
+                        <div className={styles.downloadicon}>
+                            <Image
+                                src={downloadicon}
+                                alt="download-icon"
+                                className={`img-fluid`}
+                                width={30}
+                                height={20}
+                            />
+                        </div>
+                        <p>
+                            Download Product Brochure
+                        </p>
                     </div>
 
                 </div>

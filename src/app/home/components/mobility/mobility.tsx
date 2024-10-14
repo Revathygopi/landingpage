@@ -20,7 +20,7 @@ export default function Mobility() {
             <div className={styles.marketbutton}>
                 <p className={styles.buttontext}>Join Our Marketplace</p>
             </div>
-            <div className={`row justify-content-center`}>
+            <div className={`row justify-content-center ${styles.imageconatiner}`}>
                 <div className="col-4 d-flex flex-column align-items-center">
                     <div className={styles.imagecontainer1}>
                         <Image
