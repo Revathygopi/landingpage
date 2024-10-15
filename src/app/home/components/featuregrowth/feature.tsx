@@ -4,7 +4,7 @@ import feature from '../images/featureimage.png'
 import roundimage from '../images/round.png'
 export default function Feature() {
     return (
-        <div className={`d-flex flex-column align-items-center ${styles.container}`}>
+        <div className={`d-flex flex-column  justify-content-center align-items-center ${styles.container}`}>
             <div className={styles.header}>
                 <div className={styles.heading}>
                     Digital Solutions for Sustainable Growth
@@ -18,6 +18,7 @@ export default function Feature() {
                     <Image
                         src={feature}
                         alt="featureimage"
+                        className={`img-fluid`}
                         width={486}
                         height={381}
                     />

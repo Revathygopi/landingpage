@@ -1,6 +1,7 @@
 import Digital from "./components/digitalfeature/digital";
 import Ecosystem from "./components/ecosystem/ecosystem";
 import Feature from "./components/featuregrowth/feature";
+import Footer from "./components/footer/footer";
 import Hero from "./components/hero/hero";
 import Mobility from "./components/mobility/mobility";
 import Navbar from "./components/navbar/navbar";
@@ -19,6 +20,7 @@ export default function App() {
             <Mobility></Mobility>
             <Digital></Digital>
             <Feature></Feature>
+            <Footer></Footer>
         </div>
 
     )

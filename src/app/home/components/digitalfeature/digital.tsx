@@ -8,7 +8,7 @@ import downloadicon from '../images/download-icon.png'
 
 export default function Digital() {
     return (
-        <div className={styles.container}>
+        <div className={`d-flex flex-column  justify-content-center  align-items-center ${styles.container}`}>
             <div className={styles.digitalheading}>
                 AI-Powered Vehicle Digital Inspection
             </div>

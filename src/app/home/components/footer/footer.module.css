@@ -1,0 +1,148 @@
+.container {
+    width: 1550px;
+    height: 884px;
+    position: relative;
+}
+
+.testinomial {
+    width: 1550px;
+    height: 819px;
+    background: linear-gradient(180deg, #3771C8 0%, #68D5A1 100%);
+}
+
+.commitment {
+    width: 1065px;
+    height: 737px;
+    position: absolute;
+    top: 130px;
+    left: 224px;
+    gap: 44px;
+}
+
+.content {
+    width: 1065px;
+    height: 166px;
+    gap: 28px;
+}
+
+.heading {
+    width: 1065px;
+    height: 44px;
+    font-family: Gilroy-Bold;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.formatquote {
+    width: 1065px;
+    height: 94px;
+    position: relative;
+}
+
+.rightquote {
+    top: 80px;
+    left: 950px;
+    position: absolute;
+}
+
+.leftquote {
+    top: 45px;
+    left: 30px;
+    position: absolute;
+}
+
+.solwermission {
+    width: 950px;
+    height: 88px;
+    position: absolute;
+    top: 78px;
+    left: 30px;
+    font-family: Gilroy-Medium;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: center;
+    padding: 10px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.footerimage {
+    border-radius: 300px 300px 0px 0px;
+    border: 14px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer {
+    width: 1512px;
+    height: 55px;
+    padding: 23px 59px 23px 59px;
+    justify-content: space-between;
+    position:relative;
+}
+
+.footerlogo {
+    gap: 16px;
+}
+
+.footerrightpart {
+    height: 16px;
+    gap:40px;
+}
+
+.contactus {
+    width: 323px;
+    height: 16px;
+    gap: 20px;
+}
+
+.privacy {
+    width: 94px;
+    height: 16px;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: right;
+    color: rgba(22, 28, 45, 1);
+
+}
+
+.conditions {
+    width: 132px;
+    height: 16px;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: right;
+    color: rgba(22, 28, 45, 1);
+}
+
+.contact {
+    width: 57px;
+    height: 16px;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: right;
+    color: rgba(22, 28, 45, 1);
+}
+
+.socialmedia {
+    width: 140px;
+    height: 20px;
+    gap:20px;
+}
+

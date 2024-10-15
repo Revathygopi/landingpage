@@ -26,7 +26,7 @@ export default function Mobility() {
                         <Image
                             src={mobileimage1}
                             alt="Mobileimage"
-                            className={styles.image1}
+                            className={`img-fluid ${styles.image1}`}
                             width={282}
                             height={621}
                         />

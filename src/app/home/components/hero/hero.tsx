@@ -18,6 +18,7 @@ export default function Hero() {
              <Image
                  src={banner}
                  alt="logo"
+                 className={`img-fluid`}
                  width={639}
                  height={460}
              />
