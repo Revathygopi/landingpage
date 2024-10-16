@@ -1,4 +1,6 @@
 .container {
+    max-width: 1512px;
+    height: 715px;
     padding: 70px 0px 120px 0px;
     gap: 44px;
     background: rgba(244, 247, 250, 1);
@@ -42,6 +44,8 @@
 }
 
 .image {
+    width: 486px;
+    height: 381px;
     border-radius: 8px 0px 0px 0px;
 }
 
@@ -81,7 +85,8 @@
     color: rgba(0, 161, 43, 1);
 }
 
-.integratedmanufacturing,.economy {
+.integratedmanufacturing,
+.economy {
 
     width: 449px;
     height: 168px;
@@ -89,7 +94,8 @@
 
 }
 
-.integratedmanufacturing p , .economy p {
+.integratedmanufacturing p,
+.economy p {
     width: 449px;
     height: 32px;
     font-family: Gilroy-Bold;
@@ -102,13 +108,15 @@
 
 }
 
-.management, .digital {
+.management,
+.digital {
     width: 449px;
     height: 124px;
     gap: 8px;
 }
 
-.manufacturing ,.mobility{
+.manufacturing,
+.mobility {
     width: 449px;
     height: 58px;
     opacity: 0.8px;
@@ -121,87 +129,7 @@
     color: black
 }
 
-.manufacturing span , .mobility span{
-    font-family: Gilroy-Regular;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: -0.20000000298023224px;
-    text-align: left;
-
-}
-
-.transport, .vehicle {
-    width: 449px;
-    height: 58px;
-    gap: 0px;
-    opacity: 0.8px;
-    font-family: Gilroy-SemiBold;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: -0.20000000298023224px;
-    text-align: left;
-    color: black;
-
-}
-
-.transport span, .vehicle span {
-    font-family: Gilroy-Regular;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: -0.20000000298023224px;
-    text-align: left;
-
-}
-
-.content2 {
-    width: 512px;
-    height: 168px;
-    gap: 20px;
-}
-
-/* .economy {
-    width: 449px;
-    height: 168px;
-    gap: 12px;
-}
-
-.economy p {
-
-    width: 449px;
-    height: 32px;
-    font-family: Gilroy-Bold;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    letter-spacing: -0.5px;
-    text-align: left;
-    color: rgba(22, 28, 45, 1);
-
-}
-
-.digital {
-    width: 449px;
-    height: 124px;
-    gap: 8px;
-}
-
-.mobility {
-    width: 449px;
-    height: 58px;
-    opacity: 0.8px;
-    color: black;
-    font-family: Gilroy-SemiBold;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: -0.20000000298023224px;
-    text-align: left;
-
-}
-
+.manufacturing span,
 .mobility span {
     font-family: Gilroy-Regular;
     font-size: 16px;
@@ -212,6 +140,7 @@
 
 }
 
+.transport,
 .vehicle {
     width: 449px;
     height: 58px;
@@ -227,6 +156,7 @@
 
 }
 
+.transport span,
 .vehicle span {
     font-family: Gilroy-Regular;
     font-size: 16px;
@@ -234,4 +164,206 @@
     line-height: 29px;
     letter-spacing: -0.20000000298023224px;
     text-align: left;
-} */
+
+}
+
+.content2 {
+    width: 512px;
+    height: 168px;
+    gap: 20px;
+}
+
+@media only screen and (max-width:768px) {
+
+
+    .container {
+        height: 800px;
+    }
+
+    .header {
+        width: 345px;
+        height: 66px;
+        gap: 8px;
+    }
+
+    .heading {
+        width: 345px;
+        height: 24px;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+
+
+    }
+
+    .text {
+        width: 345px;
+        height: 34px;
+        font-size: 14px;
+        line-height: 16.8px;
+        color: rgba(0, 0, 0, 1);
+    }
+
+    .image {
+        width: 312px;
+        height: 245px;
+        /* margin-top:200px; */
+
+    }
+
+    .imagecontent {
+        flex-direction: column;
+    }
+
+    .content {
+        width: 345px;
+        height: 274px;
+        gap: 24px;
+    }
+
+    .content1 {
+        width: 345px;
+        height: 142px;
+        gap: 20px;
+    }
+
+    .integratedmanufacturing {
+        width: 293px;
+        height: 142px;
+        gap: 10px;
+    }
+
+    .integratedmanufacturing p,
+    .economy p {
+        width: 293px;
+        height: 22px;
+        font-family: Gilroy-Bold;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.6px;
+        letter-spacing: -0.01em;
+        text-align: left;
+
+
+    }
+
+    .management {
+        width: 293px;
+        height: 110px;
+        gap: 8px;
+    }
+
+    .manufacturing,
+    .mobility {
+        width: 293px;
+        height: 51px;
+        opacity: 0.7px;
+        font-family: Gilroy-SemiBold;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.8px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: left;
+
+    }
+
+    .manufacturing span,
+    .mobility span {
+        font-family: Gilroy-Regular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.8px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: left;
+
+    }
+
+    .transport,.vehicle {
+        width: 293px;
+        height: 51px;
+        gap: 0px;
+        opacity: 0.7px;
+        font-family: Gilroy-SemiBold;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.8px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: left;
+
+    }
+
+    .transport span,.vehicle span {
+        font-family: Gilroy-Regular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.8px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: left;
+
+    }
+
+    .content2 {
+        width: 345px;
+        height: 108px;
+        gap: 20px;
+    }
+
+    .economy {
+        width: 293px;
+        height: 108px;
+        gap: 10px;
+    }
+
+    .digital {
+        width: 293px;
+        height: 76px;
+        gap: 8px;
+    }
+    .mobility {
+        width: 293px;
+        height: 34px;
+        opacity: 0.7px;
+        font-family: Gilroy-SemiBold;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.8px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: left;
+
+    }
+    .mobility span {
+        font-family: Gilroy-Regular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.8px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: left;
+
+    }
+
+.vehicle {
+        width: 293px;
+        height: 34px;
+        gap: 0px;
+        opacity: 0.7px;
+        font-family: Gilroy-SemiBold;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.8px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: left;
+
+    }
+
+
+    .vehicle span {
+        font-family: Gilroy-Regular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.8px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: left;
+
+    }
+
+}

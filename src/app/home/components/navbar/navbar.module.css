@@ -1,33 +1,49 @@
 
 .container {
-    /* display: flex;
-    align-items: center; 
-    justify-content: space-between;  */
-    padding: 12px 50px; 
+    width:1512px;
+    height: 106px;
+    padding: 28px 48px 28px 48px;
+    
 }
 
 .logo {
     width: 169px;
-    height: 49px;
+    height: 48px;
+    gap:16px;
 }
 
 .navbar {
     width: 632px;
     height: 50px;
-    padding: 12px 50px;
-    border-radius: 28px;
+    padding: 12px 50px 12px 50px;
+    border-radius: 28px ;
+    border: 1px 0px 0px 0px;
     background-color: rgba(255, 255, 255, 0.6);
     border: 1px solid rgba(219, 229, 248, 1);
+
 }
+
 
 .navicon {
     color: rgba(61, 61, 61, 1);
-    /* display:flex;
-    justify-content: space-between;
-    text-align: center; */
     list-style-type: none;
     font-weight: 400;
     font-family:gilory-bold;
     font-size:15px;
     line-height:26px;
 }
+
+@media only screen and (max-width: 1024px){
+    .container{
+        width:1000px;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:768px){
+    .navbar{
+        display: none;
+    }
+}
+
+
+
+

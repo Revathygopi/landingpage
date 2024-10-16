@@ -1,15 +1,16 @@
+
 .imagecontainer {
     position: relative;
     border-radius: 24px;
+    max-width:1048px;
 }
 
-.content {
+.transform {
     width: 665px;
-    height: 44px;
     position: absolute;
-    top: 39%;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     font-family: Gilroy-Bold;
     font-size: 36px;
     font-weight: 400;
@@ -18,15 +19,62 @@
     text-align: center;
     color: rgba(255, 255, 255, 1);
 }
-.oval{
+
+.oval {
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.playfill{
+
+.playfill {
     position: absolute;
-    top: 53%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@media (max-width: 708px) {
+    .imagecontainer {
+        width: 345px;
+        height: 198px;
+        border-radius: 8.16px 0px 0px 0px;
+    }
+
+    .oval {
+        width: 60px;
+        position: absolute;
+        top: 65%;
+
+    }
+
+    .playfill {
+        width:20px;
+        position: absolute;
+        top: 61%
+    }
+
+    .transform {
+        width: 301px;
+        height: 48px;
+        font-family: Gilroy-Bold;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.40811994671821594px;
+        text-align: center;
+
+    }
+}
+@media only screen and  (min-width: 760px) and (max-width:1000px) {
+    .imagecontainer {
+        width: 700px;
+    }
+
+}
+/* @media only screen and  (max-width: 1040px) {
+    .imagecontainer {
+        width: 900px;
+    }
+
+} */

@@ -5,11 +5,13 @@ import Logo from '../images/logo.png'
 
 export default function Navbar() {
     return (
-        <div className={`container-fluid d-flex align-items-center justify-content-between ${styles.container}`}>
-            <div className={styles.logo}>
+      
+            <div className={` d-flex  align-items-center justify-content-center justify-content-between ${styles.container}`}>
+            <div className={`d-flex ${styles.logo}`}>
                 <Image
                     src={Logo}
                     alt="logo"
+                    className={`imd-fluid`}
                     width={102}
                     height={48}
                 />

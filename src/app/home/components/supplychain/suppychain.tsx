@@ -10,31 +10,34 @@ export default function Supplychain() {
             <div className={styles.imagecontainer}>
                 <Image
                     src={banner}
-                    alt="logo"
-                    className={`img-fluid`}
+                    alt="Transform"
+                    className={`img-fluid ${styles.transformimage}`}
                     width={1048}
                     height={586}
                 />
-                <p className={styles.content}>
-                    Transforms supply chains and value chains
-                </p>
-                <div className={styles.oval}>
-                    <Image
-                        src={oval}
-                        alt="logo"
-                        className={`img-fluid`}
-                        width={114}
-                        height={114}
-                    />
-                </div>
-                <div className={styles.playfill}>
-                    <Image
-                        src={palyfill}
-                        alt="logo"
-                        className={`img-fluid`}
-                        width={24}
-                        height={24}
-                    />
+                <div className={styles.content}>
+                    <p className={styles.transform}>
+                        Transforms supply chains and value chains
+                    </p>
+
+                    <div className={styles.oval}>
+                        <Image
+                            src={oval}
+                            alt="logo"
+                            className={`img-fluid`}
+                            width={114}
+                            height={114}
+                        />
+                    </div>
+                    <div className={styles.playfill}>
+                        <Image
+                            src={palyfill}
+                            alt="logo"
+                            className={`img-fluid`}
+                            width={24}
+                            height={24}
+                        />
+                    </div>
                 </div>
             </div>
         </div>

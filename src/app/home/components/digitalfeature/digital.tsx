@@ -8,17 +8,17 @@ import downloadicon from '../images/download-icon.png'
 
 export default function Digital() {
     return (
-        <div className={`d-flex flex-column  justify-content-center  align-items-center ${styles.container}`}>
+        <div className={`d-flex flex-column align-items-center ${styles.container}`}>
             <div className={styles.digitalheading}>
                 AI-Powered Vehicle Digital Inspection
             </div>
-            <div className={`d-flex justify-content-between mt-5  ${styles.imagecontent}`}>
-                <div className={styles.imagecontainer}>
+            <div className={`d-flex justify-content-between justify-content-center align-items-center mt-5  ${styles.imagecontent}`}>
+                <div className={`d-flex justify-content-center align-items-center ${styles.imagecontainer}`}>
 
                     <Image
                         src={digitalimage}
                         alt="Digitalimage"
-                        className={styles.digitalimage}
+                        className={`img-fluid ${styles.digitalimage}`}
                         width={641}
                         height={334}
                     />
@@ -27,7 +27,7 @@ export default function Digital() {
                             src={oval}
                             alt="logo"
                             className={`img-fluid`}
-                            width={120}
+                            width={68}
                             height={68}
                         />
                     </div>
@@ -36,82 +36,75 @@ export default function Digital() {
                             src={playfill}
                             alt="logo"
                             className={`img-fluid`}
-                            width={30}
+                            width={20}
                             height={20}
                         />
                     </div>
 
                 </div>
-                <div className={`d-flex flex-column ${styles.contentwithbutton}`}>
-                    <div className={`${styles.content}`}>
+                <div className={`d-flex flex-column justify-content-center align-items-center  justify-content-between  ${styles.contentwithbutton}`}>
+                    <div className={` d-flex flex-column justify-content-center align-items-center ${styles.content}`}>
                         <div className={styles.content1}>
                             Our platform revolutionizes vehicle inspection by automating valuation processes with advanced image
                             recognition and machine learning
                         </div>
-                        <div className={`mt-3 ${styles.pointcontent}`}>
-                            <div className={`d-flex ${styles.line1content}`}>
-                                <div className={styles.checkfill}>
+                        <div className={`d-flex flex-column  ${styles.pointcontent}`}>
+                            <div className={`d-flex ${styles.datamanagement}`}>
+                               
                                     <Image
                                         src={checkfill}
                                         alt="checkfill"
-                                        className={`img-fluid`}
+                                        className={`img-fluid ${styles.checkfill}`}
                                         width={24}
                                         height={24}
                                     />
-                                </div>
+
                                 <p>Improved data management</p>
                             </div>
 
-                            <div className={`d-flex ${styles.line2content}`}>
+                            <div className={`d-flex  ${styles.transparencyreports}`}>
                                 <div className={`d-flex ${styles.transparency}`}>
-                                    <div className={styles.checkfill}>
                                         <Image
                                             src={checkfill}
                                             alt="checkfill"
-                                            className={`img-fluid`}
+                                            className={`img-fluid ${styles.checkfill}`}
                                             width={24}
                                             height={24}
                                         />
-                                    </div>
                                     <p> Transparency</p>
                                 </div>
                                 <div className={`d-flex ${styles.reports}`}>
-                                    <div className={styles.checkfill}>
                                         <Image
                                             src={checkfill}
                                             alt="checkfill"
-                                            className={`img-fluid`}
+                                            className={`img-fluid ${styles.checkfill}`}
                                             width={24}
                                             height={24}
                                         />
-                                    </div>
                                     <p>Refined Reports</p>
                                 </div>
                             </div>
-                            <div className={`d-flex ${styles.line3content}`}>
-                                <div className={styles.checkfill}>
+                            <div className={`d-flex ${styles.efficiency}`}>
                                     <Image
                                         src={checkfill}
                                         alt="checkfill"
-                                        className={`img-fluid`}
+                                        className={`img-fluid ${styles.checkfill}`}
                                         width={24}
                                         height={24}
                                     />
-                                </div>
                                 <p>Speed and Efficiency</p>
                             </div>
                         </div>
                     </div>
-                    <div className={`d-flex  ${styles.downloadbutton}`}>
-                        <div className={styles.downloadicon}>
+                    <div className={`d-flex   ${styles.downloadbutton}`}>
                             <Image
                                 src={downloadicon}
                                 alt="download-icon"
-                                className={`img-fluid`}
+                                className={`img-fluid ${styles.downloadicon}`}
                                 width={30}
                                 height={20}
                             />
-                        </div>
+
                         <p>
                             Download Product Brochure
                         </p>
