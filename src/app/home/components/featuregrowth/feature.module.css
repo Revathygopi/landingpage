@@ -173,7 +173,7 @@
     gap: 20px;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:708px) {
 
 
     .container {
@@ -206,9 +206,7 @@
 
     .image {
         width: 312px;
-        height: 245px;
-        /* margin-top:200px; */
-
+        height: auto;
     }
 
     .imagecontent {
@@ -366,4 +364,28 @@
 
     }
 
+}
+@media only screen and (min-width:1000px) and (max-width:1024px){
+    .imagecontent{
+        width:900px;
+        gap:20px;
+    }
+    .image{
+      margin-top: 20px;
+ 
+    }
+}
+@media only screen and (max-width:768px){
+    .container{
+        height:900px;
+    }
+    .imagecontent{
+        flex-direction: column;
+        width:900px;
+        gap:20px;
+    }
+    .image{
+        width:350px;
+    }
+    
 }

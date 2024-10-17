@@ -12,7 +12,7 @@ export default function Digital() {
             <div className={styles.digitalheading}>
                 AI-Powered Vehicle Digital Inspection
             </div>
-            <div className={`d-flex justify-content-between justify-content-center align-items-center mt-5  ${styles.imagecontent}`}>
+            <div className={`d-flex justify-content-between justify-content-center align-items-center   ${styles.imagecontent}`}>
                 <div className={`d-flex justify-content-center align-items-center ${styles.imagecontainer}`}>
 
                     <Image
@@ -42,9 +42,9 @@ export default function Digital() {
                     </div>
 
                 </div>
-                <div className={`d-flex flex-column justify-content-center align-items-center  justify-content-between  ${styles.contentwithbutton}`}>
+                <div className={`d-flex flex-column   justify-content-between  ${styles.contentwithbutton}`}>
                     <div className={` d-flex flex-column justify-content-center align-items-center ${styles.content}`}>
-                        <div className={styles.content1}>
+                        <div className={` ${styles.content1}`}>
                             Our platform revolutionizes vehicle inspection by automating valuation processes with advanced image
                             recognition and machine learning
                         </div>
@@ -96,7 +96,7 @@ export default function Digital() {
                             </div>
                         </div>
                     </div>
-                    <div className={`d-flex   ${styles.downloadbutton}`}>
+                    <div className={`d-flex ${styles.downloadbutton}`}>
                             <Image
                                 src={downloadicon}
                                 alt="download-icon"

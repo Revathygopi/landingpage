@@ -14,7 +14,7 @@ export default function Footer() {
         <div className={styles.footercontainer}>
             <div className={`d-flex flex-column   ${styles.container}`}>
                 <div className={`d-flex flex-column align-items-center   ${styles.testinomial}`}>
-                    <div className={`d-flex flex-column align-items-center   ${styles.commitment}`}>
+                    <div className={`d-flex flex-column align-items-center mt-5    ${styles.commitment}`}>
                         <div className={`d-flex flex-column align-items-center ${styles.content}`}>
                             <div className={styles.heading}>
                                 Our Commitment to a Sustainable Future 

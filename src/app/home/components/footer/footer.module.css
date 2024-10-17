@@ -1,6 +1,6 @@
 .footercontainer {
     width: 1512px;
-    height:840px;
+    height:820px;
     position: relative;
 }
 
@@ -153,7 +153,7 @@
     gap: 20px;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:700px) {
 
     .footercontainer {
         height: 561px;
@@ -162,16 +162,18 @@
 
     .conatiner {
 
-        height: 443px ;
+        height: 443px;
     }
 
     .commitment {
-        height: 443px ;
+        height: 443px;
+        gap:0px;
     }
+    .content{gap:0px;}
 
     .testinomial {
         width: 425px;
-        height: 443px ;
+        height: 460px ;
     }
 
 
@@ -250,4 +252,45 @@
         border: 1px solid rgba(0, 0, 0, 0.06);
         margin-top: -15px;
     }
+}
+
+@media only screen and (min-width:700px) and (max-width:768px) {
+    .testinomial{
+        width:768px;
+    
+    }
+    .footer{
+        width:768px;
+    }
+    .solwermission {
+        width: 515px;
+        height: 68px;
+        font-size: 14px;
+        line-height: 16.8px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: center;
+
+    }
+    
+}
+
+@media only screen and (min-width:1000px) and (max-width:1024px) {
+    .testinomial{
+        width:1024px;
+    
+    }
+    .footer{
+        width:1024px;
+    }
+   
+}
+@media only screen and (min-width:1200px) and (max-width:1440px) {
+    .testinomial{
+        width:1440px;
+    
+    }
+    .footer{
+        width:1440px;
+    }
+   
 }
