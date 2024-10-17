@@ -11,61 +11,66 @@ import linkdn from '../images/LinkedIn.png'
 
 export default function Footer() {
     return (
-        <div className={styles.container}>
-            <div className={styles.testinomial}>
-                <div className={styles.commitment}>
-                    <div className={styles.content}>
-                        <div className={styles.heading}>
-                            Our Commitment to a Sustainable Future
-                        </div>
-                        <div className={styles.formatquote}>
-                            <div className={styles.rightquote}>
-                                <Image
-                                    src={rightquote}
-                                    alt="quotesymbol"
-                                    width={30}
-                                    height={21}
-                                />
+        <div className={styles.footercontainer}>
+            <div className={`d-flex flex-column   ${styles.container}`}>
+                <div className={`d-flex flex-column align-items-center   ${styles.testinomial}`}>
+                    <div className={`d-flex flex-column align-items-center   ${styles.commitment}`}>
+                        <div className={`d-flex flex-column align-items-center ${styles.content}`}>
+                            <div className={styles.heading}>
+                                Our Commitment to a Sustainable Future 
                             </div>
-                            <div className={styles.leftquote}>
-                                <Image
-                                    src={leftquote}
-                                    alt="quotesymbol"
-                                    className={styles.quotesymbol}
-                                    width={30}
-                                    height={21}
-                                />
+                            <div className={styles.formatquote}>
+                                <div className={styles.rightquote}>
+                                    <Image
+                                        src={rightquote}
+                                        alt="quotesymbol"
+                                        width={30}
+                                        height={21}
+                                    />
+                                </div>
+                                <div className={styles.leftquote}>
+                                    <Image
+                                        src={leftquote}
+                                        alt="quotesymbol"
+                                        className={styles.quotesymbol}
+                                        width={30}
+                                        height={21}
+                                    />
+                                </div>
                             </div>
-                        </div>
-                        <div className={styles.solwermission}>
-                            At Solwer, our mission is to create a better world through lean and clean innovation, providing digital solutions to optimize
-                            operations and reduce environmental impact
+                            <div className={styles.solwermission}>
+                            
+                                    At Solwer, our mission is to create a better world through lean and clean innovation, providing digital solutions to optimize
+                                    operations and reduce environmental impact
+                                
+                            </div>
+
                         </div>
 
+                        <div className={styles.footerimage}>
+                            <Image
+                                src={footerimage}
+                                alt="footer-image"
+                                className={`img-fluid`}
+                                width={600}
+                                height={372}
+                            />
+                        </div>
                     </div>
 
-                    <div className={styles.footerimage}>
+                </div>
+                <div className={`d-flex  ${styles.footer}`}>
+                    <div className={styles.footerlogo}>
                         <Image
-                            src={footerimage}
-                            alt="footer-image"
-                            width={600}
-                            height={472}
+                            src={footerlogo}
+                            alt="Logo"
+                            width={101}
+                            height={24}
                         />
                     </div>
-                </div>
 
-            </div>
-            <div className={`d-flex ${styles.footer}`}>
-                <div className={styles.footerlogo}>
-                    <Image
-                        src={footerlogo}
-                        alt="Logo"
-                        width={101}
-                        height={24}
-                    />
-                </div>
-                <div className={`d-flex  ${styles.footerrightpart}`}>
-                    <div className={`d-flex  ${styles.contactus}`}>
+                   <div className={`d-flex  ${styles.contactmedia}`}>
+                   <div className={`d-flex ${styles.contactus}`}>
                         <div className={styles.privacy}>
                             Privacy Policy
                         </div>
@@ -110,8 +115,11 @@ export default function Footer() {
                             />
                         </div>
                     </div>
+                   </div>
                 </div>
+                <p className={styles.line}></p>
             </div>
-        </div>
-    )
+
+
+        </div>)
 }

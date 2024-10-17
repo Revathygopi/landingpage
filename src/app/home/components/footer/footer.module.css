@@ -1,21 +1,26 @@
-.container {
-    width: 1550px;
-    height: 884px;
+.footercontainer {
+    width: 1512px;
+    height:840px;
     position: relative;
 }
 
+.container {
+    width: 1512px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+
 .testinomial {
-    width: 1550px;
-    height: 819px;
+    width: 1512px;
+    height: 737px;
     background: linear-gradient(180deg, #3771C8 0%, #68D5A1 100%);
 }
 
 .commitment {
     width: 1065px;
     height: 737px;
-    position: absolute;
-    top: 130px;
-    left: 224px;
     gap: 44px;
 }
 
@@ -39,28 +44,25 @@
 
 .formatquote {
     width: 1065px;
-    height: 94px;
+
     position: relative;
 }
 
 .rightquote {
     top: 80px;
-    left: 950px;
+    left: 960px;
     position: absolute;
 }
 
 .leftquote {
-    top: 45px;
-    left: 30px;
+    top: 40px;
+    left: 65px;
     position: absolute;
 }
 
 .solwermission {
     width: 950px;
     height: 88px;
-    position: absolute;
-    top: 78px;
-    left: 30px;
     font-family: Gilroy-Medium;
     font-size: 28px;
     font-weight: 400;
@@ -75,9 +77,7 @@
 .footerimage {
     border-radius: 300px 300px 0px 0px;
     border: 14px 0px 0px 0px;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+
 }
 
 .footer {
@@ -85,22 +85,29 @@
     height: 55px;
     padding: 23px 59px 23px 59px;
     justify-content: space-between;
-    position:relative;
 }
 
 .footerlogo {
+    width: 169px;
+    height: 59px;
     gap: 16px;
 }
 
-.footerrightpart {
-    height: 16px;
-    gap:40px;
+.contactmedia {
+    width: 878px;
+    height: 26px;
+    gap: 40px;
+    justify-content: flex-end;
+
 }
+
 
 .contactus {
     width: 323px;
     height: 16px;
-    gap: 20px;
+    gap: 10px;
+
+
 }
 
 .privacy {
@@ -143,6 +150,104 @@
 .socialmedia {
     width: 140px;
     height: 20px;
-    gap:20px;
+    gap: 20px;
 }
 
+@media only screen and (max-width:768px) {
+
+    .footercontainer {
+        height: 561px;
+        gap: 32px;
+    }
+
+    .conatiner {
+
+        height: 443px ;
+    }
+
+    .commitment {
+        height: 443px ;
+    }
+
+    .testinomial {
+        width: 425px;
+        height: 443px ;
+    }
+
+
+    .heading {
+        width: 315px;
+        height: 24px;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+
+    .formatquote {
+        display: none;
+    }
+
+
+
+    .solwermission {
+        width: 315px;
+        height: 68px;
+        font-size: 14px;
+        line-height: 16.8px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: center;
+
+    }
+
+    .footerimage {
+        width: 310px;
+        height: 290px;
+        border-radius: 150px 150px 0px 0px;
+        border: 3.64px 0px 0px 0px;
+
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 345px;
+        gap: 16px;
+        padding: 0px;
+
+    }
+
+    .footerlogo {
+        width: 74px;
+        height: 18px;
+        gap: 12px;
+    }
+
+    .contactmedia {
+        flex-direction: column;
+        height: 0px;
+        position: relative;
+        gap: 3px;
+
+    }
+
+    .contactus {
+        width: 420px;
+        order: 2;
+        justify-content: center;
+        margin-top: 13px
+    }
+
+    .socialmedia {
+        gap: 20px;
+        width: 420px;
+        padding: 0px;
+        justify-content: flex-end;
+        order: 1;
+    }
+
+    .line {
+                border: 1px 0px 0px 0px;
+        border: 1px solid rgba(0, 0, 0, 0.06);
+        margin-top: -15px;
+    }
+}

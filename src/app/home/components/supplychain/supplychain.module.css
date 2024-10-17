@@ -33,8 +33,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-@media (max-width: 708px) {
+@media only screen and (max-width: 700px) {
     .imagecontainer {
         width: 345px;
         height: 198px;
@@ -66,15 +65,14 @@
 
     }
 }
-@media only screen and  (min-width: 760px) and (max-width:1000px) {
+@media only screen and  (min-width: 760px) and (max-width:768px) {
     .imagecontainer {
         width: 700px;
     }
 
 }
-/* @media only screen and  (max-width: 1040px) {
+@media only screen and (min-width:1000px) and (max-width:1030px){
     .imagecontainer {
         width: 900px;
     }
-
-} */
+}
